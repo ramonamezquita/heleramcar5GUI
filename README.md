@@ -11,5 +11,6 @@ This Shiny app demonstrates a simple workflow of fethcing data from SVERIGES RIK
 shiny::runGitHub("heleramcar5GUI", "ramonamezquita", subdir = "R/")
 ```
 
-The interaction with the SVERIGES RIKSGAG REST-API is done through the `heleramcar5` R-package, a SDK with made for such purpose.
+The interaction with the SVERIGES RIKSGAG REST-API is done through the [heleramcar5](https://github.com/crmaedo/heleramcar5) R-package, a SDK made for
+such purpose.
 
