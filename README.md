@@ -3,14 +3,42 @@
 <!-- badges: end -->
 
 
-# SVERIGES RIKSGAG's GUI
+Here's the updated vignette for `heleramcar5GUI` with the correct installation instructions:
 
-This Shiny app demonstrates a simple workflow of fethcing data from SVERIGES RIKSGAG's database and displaying a simple wordcount analysis. You can download it using:
+---
 
-```R
+# `heleramcar5GUI` Package 
+
+## Overview
+
+`heleramcar5GUI` is the graphical user interface (GUI) version of the `heleramcar5` package, created using Shiny. It allows users to interact with the Swedish Parliament (Riksdagen) data API in a visual, user-friendly way without the need for coding.
+
+## Installation
+
+To use `heleramcar5GUI`, you first need to install the original `heleramcar5` package:
+
+```r
+# Install the heleramcar5 package
+devtools::install_github("crmaedo/heleramcar5")
+```
+
+Then, you can run the `heleramcar5GUI` Shiny dashboard directly from GitHub using:
+
+```r
+# Launch the Shiny dashboard
 shiny::runGitHub("heleramcar5GUI", "ramonamezquita", subdir = "R/")
 ```
 
-The interaction with the SVERIGES RIKSGAG REST-API is done through the [heleramcar5](https://github.com/crmaedo/heleramcar5) R-package, a SDK made for
-such purpose.
+This command will automatically download and run the GUI, providing access to the `heleramcar5` functionality through a web interface.
 
+## Usage
+
+Once the app is running, you can:
+
+- **Search Documents**: Enter a query to search for documents in the Riksdagen database.
+- **Retrieve Document Content**: Input a document ID to view its content.
+- **Analyze Text**: Perform word frequency analysis on the retrieved document text.
+
+## Conclusion
+
+`heleramcar5GUI` offers a convenient GUI for exploring Riksdagen data, making it accessible to users without programming experience. Simply run the Shiny app and start interacting with the API through an intuitive dashboard.
