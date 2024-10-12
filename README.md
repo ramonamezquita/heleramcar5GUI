@@ -2,9 +2,6 @@
 [![R-CMD-check](https://github.com/ramonamezquita/heleramcar5GUI/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ramonamezquita/heleramcar5GUI/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-
-Here's the updated vignette for `heleramcar5GUI` with the correct installation instructions:
-
 ---
 
 # `heleramcar5GUI` Package 
